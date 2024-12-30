@@ -1,0 +1,149 @@
+.fixed{
+    background: linear-gradient(to bottom, #a80164 , #a80164,#a80164 );
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.nav-link:hover,
+.nav-link.active
+{
+    text-underline-offset: 10px;
+    text-decoration: 5px underline #fff;
+    color: #fff;
+}
+
+/* for model csss label */
+.text-lb{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* model background csss */
+.modal-content,
+.contact{
+  background: linear-gradient(to right, #740d57, #a80164);
+  color: #fff;
+}
+/* model button csss */
+.contact .btn-1
+.modal-content .btn-1{
+    background: #ffffff;
+    color: #a80164#fff;
+    border: 2px solid #fff;
+}
+.btn-1,.btn-2,
+.contact .btn-1,
+.modal-content .btn-2{
+    background: #fff;
+    color: #a80164;
+    border: 2px solid #fff;
+}
+.contact .btn-1,.contact .btn-2:hover,
+.model-content .btn-1,.model-content .btn-2:hover,
+.btn-1:hover,
+.btn-2:hover
+{
+    border:2px solid #fff;
+    color: #fff;
+    background-color: #a80164;
+}
+
+.form-check{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.form-check-input,
+textarea
+{
+    background-color: #740d57;
+    border: 3px solid #fff;
+}
+.form-check-label
+{
+    font-size: 20px;
+}
+
+
+/* home container */
+/* Container holding the image and the text */
+.home {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+/* continer about */
+.container-about{
+    background: #740d57;
+    color: #fff;
+}
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+   /* Container style */
+   .container-1 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Distribute items evenly */
+    padding: 20px;
+    gap: 20px; /* Space between items */
+    background: #740d57;
+    color: #fff;
+}
+   .container-2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Distribute items evenly */
+    padding: 20px;
+    gap: 20px; /* Space between items */
+    background: #a80164;
+    color: #fff;
+}
+
+/* Box item style */
+.box {
+    display: flex;
+    flex-direction: row; /* Align image and text horizontally */
+    align-items: center; /* Vertically center content */
+    justify-content: center;
+    flex: 1;
+    min-width: 250px; /* Minimum width for each box */
+    max-width: 500px; /* Maximum width for each box */
+    /* background-color: lightgray; */
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Image style */
+.box img {
+    max-width: 100%; /* Limit image width to 50% */
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Text style */
+.text {
+    max-width: 100%; /* Limit text width to 50% */
+    padding-left: 10px; /* Space between image and text */
+}
+
+/* Text elements styling */
+.box h1 {
+    margin: 3px;
+    font-size: 30px;
+}
+
+.box p {
+    font-size: 12px;
+    line-height: 1.5;
+}
